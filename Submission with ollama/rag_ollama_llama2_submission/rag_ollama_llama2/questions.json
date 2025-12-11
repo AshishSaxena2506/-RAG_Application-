@@ -1,0 +1,12 @@
+[
+  "What problem does the Transformer architecture aim to solve?",
+  "Explain the concept of self-attention as described in the Transformer paper.",
+  "How does BERT pre-training work?",
+  "What is masked language modeling and which paper introduced it?",
+  "How does GPT-style autoregressive training differ from BERT?",
+  "What is multi-head attention and why is it useful?",
+  "Describe the encoder-decoder structure in sequence-to-sequence models.",
+  "What role do positional encodings play in Transformers?",
+  "How do Transformers enable better parallelization compared to RNNs?",
+  "Summarize one key limitation or challenge mentioned in any of the papers."
+]

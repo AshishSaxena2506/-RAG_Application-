@@ -1,0 +1,59 @@
+To check whether Ollama is installed and whether the LLaMA 2 model is available and working, follow these quick steps 👇
+
+✅ Step 1 — Check if Ollama is installed
+
+Open Terminal / Command Prompt and run:
+
+ollama --version
+
+
+If it prints a version number → Ollama is installed ✔️
+If it says command not found → Ollama is not installed ❌
+
+✅ Step 2 — Check if Ollama service is running
+ollama list
+
+
+If it runs and prints something → service is running ✔️
+If it errors → restart system or run Ollama app manually
+
+🎯 Step 3 — Check if LLaMA 2 model is downloaded
+ollama list
+
+
+You should see something like:
+
+llama2        7B
+
+
+If llama2 is not listed, install it using:
+
+ollama pull llama2
+
+🧪 Step 4 — Test chatting with LLaMA 2
+
+Run:
+
+ollama run llama2
+
+
+You should see it respond like:
+
+>>> Hello! How can I assist you today?
+
+
+Try typing a message:
+
+>>> What is Transformer architecture?
+
+
+If it replies → everything is ready 🎉
+
+Press Ctrl + C to exit.
+
+🔍 Summary of Commands
+Check	Working Command
+Ollama installed	ollama --version
+Ollama running	ollama list
+LLaMA 2 installed	ollama list
+Test the model	ollama run llama2
